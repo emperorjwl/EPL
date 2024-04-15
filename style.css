@@ -1,0 +1,110 @@
+body{
+    font-family: Poppins;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-space{
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px ;
+}
+
+.header .title{
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .icon i{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header .whatsapp i{
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row{
+    display: flex;
+}
+
+.team{
+    box-shadow: 1px 1px 8px gray;
+    margin: 25px 10px ;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.team .team-thumbnail{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.team .team-thumbnail img{
+    width:80%;
+}
+
+.team h4{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+.team p{
+    font-size: 12px;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.team a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 20px;
+    color:white;
+}
+
+.team .city{
+    background-color: rgb(77, 144, 231);
+}
+
+.team .arsenal{
+    background-color: red;
+}
+
+
+@media(max-width:500px){
+    main{
+        width: 100% ;
+    }
+    .header .title{
+        text-align: center;
+        font-size: 1em;
+    }
+    .row{
+        display: block;
+    }
+    
+}
